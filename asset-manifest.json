@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/layout-digitaltrend/static/css/main.f3d74275.chunk.css",
+    "main.js": "/layout-digitaltrend/static/js/main.f57bc2b8.chunk.js",
+    "main.js.map": "/layout-digitaltrend/static/js/main.f57bc2b8.chunk.js.map",
+    "runtime-main.js": "/layout-digitaltrend/static/js/runtime-main.69cfa1cc.js",
+    "runtime-main.js.map": "/layout-digitaltrend/static/js/runtime-main.69cfa1cc.js.map",
+    "static/css/2.a5571919.chunk.css": "/layout-digitaltrend/static/css/2.a5571919.chunk.css",
+    "static/js/2.98045d61.chunk.js": "/layout-digitaltrend/static/js/2.98045d61.chunk.js",
+    "static/js/2.98045d61.chunk.js.map": "/layout-digitaltrend/static/js/2.98045d61.chunk.js.map",
+    "index.html": "/layout-digitaltrend/index.html",
+    "static/css/2.a5571919.chunk.css.map": "/layout-digitaltrend/static/css/2.a5571919.chunk.css.map",
+    "static/css/main.f3d74275.chunk.css.map": "/layout-digitaltrend/static/css/main.f3d74275.chunk.css.map",
+    "static/js/2.98045d61.chunk.js.LICENSE.txt": "/layout-digitaltrend/static/js/2.98045d61.chunk.js.LICENSE.txt",
+    "static/media/blog-header-image.jpg": "/layout-digitaltrend/static/media/blog-header-image.a17f102b.jpg",
+    "static/media/blog-sidebar-image.jpg": "/layout-digitaltrend/static/media/blog-sidebar-image.5efb3c80.jpg",
+    "static/media/blog-sidebar-image01.jpg": "/layout-digitaltrend/static/media/blog-sidebar-image01.5c6690a2.jpg",
+    "static/media/blog-sidebar-image02.jpg": "/layout-digitaltrend/static/media/blog-sidebar-image02.f1cd958d.jpg",
+    "static/media/female-avatar.9d52bcfa.png": "/layout-digitaltrend/static/media/female-avatar.9d52bcfa.png",
+    "static/media/img_about.5018c78f.png": "/layout-digitaltrend/static/media/img_about.5018c78f.png",
+    "static/media/img_hero.8f24d717.png": "/layout-digitaltrend/static/media/img_hero.8f24d717.png",
+    "static/media/newsletter.a6e903a4.png": "/layout-digitaltrend/static/media/newsletter.a6e903a4.png",
+    "static/media/project-image01.jpg": "/layout-digitaltrend/static/media/project-image01.f75ce6fe.jpg",
+    "static/media/project-image02.jpg": "/layout-digitaltrend/static/media/project-image02.b2d8c8bb.jpg",
+    "static/media/project-image03.jpg": "/layout-digitaltrend/static/media/project-image03.4b08d862.jpg",
+    "static/media/project-image04.jpg": "/layout-digitaltrend/static/media/project-image04.0d72fcfd.jpg",
+    "static/media/project-image05.jpg": "/layout-digitaltrend/static/media/project-image05.e1089df8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69cfa1cc.js",
+    "static/css/2.a5571919.chunk.css",
+    "static/js/2.98045d61.chunk.js",
+    "static/css/main.f3d74275.chunk.css",
+    "static/js/main.f57bc2b8.chunk.js"
+  ]
+}
