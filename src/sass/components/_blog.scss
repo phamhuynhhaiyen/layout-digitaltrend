@@ -1,0 +1,127 @@
+.blog{
+    font-size:1.5rem;
+
+    &__title{
+        text-align: center;
+        font-size:3rem;
+        margin-bottom: 8rem;
+    }
+
+    &__top{
+        @include flex(flex-start,center);
+        gap: 2rem;
+
+        @include mobile{
+            flex-direction: column
+        }
+
+        &__header{
+            width: 75%;
+            position: relative;
+
+            @include mobile{
+                width: 100%;
+            }
+            
+            img{
+                border-radius: 5px;
+            }
+
+            &__info{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 3rem 2rem;
+                background: linear-gradient(transparent,rgba(0,0,0,0.95));
+                border-radius: 5px;
+
+                h4{
+                    color: $light-blue;
+                    margin-bottom:1rem;
+                }
+                p{
+                    color: #fff;
+                    font-size:2rem;
+                    max-width: 80%;
+                }
+            }
+        }
+
+        &__sidebar{
+
+            &__item{
+                @include flex(center,center);
+                gap: 2rem;
+                margin-bottom: 2rem;
+
+                img{
+                    width: 159px;
+                    border-radius: 5px;
+                }
+                h4{
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+
+    &__bottom{
+        @include flex(center,center);
+        gap: 2rem;
+        margin-top: 4rem;
+        padding: 0 5rem;
+
+        @include tablet{
+            padding: 0;
+        }
+
+        @include mobile{
+            flex-direction: column;
+        }
+
+        img{
+            width: 50%;
+            @include mobile{
+                width: 100%;
+            }
+        }
+        &__content{
+            h5{
+                color: $light-grey;
+                margin-bottom:1.5rem;
+            }
+            h2{
+                line-height:3.5rem;
+                margin-bottom:1rem;
+            }
+            &__email{
+                font-size: 1.25rem;
+                width: 100%;
+                background-color:$bg-color;
+                padding:1.5rem;
+                border: none;
+                border-radius:0.5rem;
+                margin: 1rem 0;
+            }
+            p{
+                font-size:1rem;
+                color: $light-grey;
+                margin-bottom:2rem;
+            }
+            button{
+                border: none;
+                background: $yellow;
+                color: $white;
+                font-size:1.5rem;
+                padding:1.5rem;
+                width: 100%;
+                border-radius:100px;
+                margin-top:2rem;
+            }
+            label{
+                font-size:1.25rem;
+            }
+        }
+    }
+}

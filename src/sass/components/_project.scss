@@ -1,0 +1,77 @@
+.project{
+    font-size:1.5rem;
+    background-color:$bg-color;
+    padding: 8rem 1.5rem;
+    
+    &__title{
+        text-align:center;
+        margin-bottom: 5rem;
+        span{
+            color: $yellow;
+        }
+    }
+
+    &__slide{
+        width: 700px;
+        position: relative;
+        img{
+            border-radius:0.5rem;
+        }
+        &__info{
+            @include flex(center,space-between);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 2.5rem;
+            background-color: $white;
+            border-radius: 0.5rem;
+            padding:2.5rem;
+
+            @include mobile{
+                padding:1.5rem;
+                margin:1.5rem;
+            }
+
+            h6{
+                color: $light-grey;
+                margin-bottom:0.5rem;
+            }
+
+            p{
+                font-size:1.75rem;
+                color: $blue;
+            }
+            i{
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                background-color:$blue;
+                text-align: center;
+                border-radius: 50%;
+                color: $white;
+            }
+        }
+        @include mobile{
+            width: 100%;
+        }
+    }
+}
+.swiper{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.swiper-pagination{
+    position:static;
+    margin-top: 2rem;
+}
+.swiper-pagination-bullet{
+    width: 50px;
+    border-radius: unset;
+    height: 3px;
+    background-color:$light-grey;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color:$yellow;
+}

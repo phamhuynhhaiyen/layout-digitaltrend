@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    outline:none;
+}
+*::selection{
+    color: $white;
+    background: $yellow;
+}
+html{
+    font-size: 13px;
+    
+    @include tablet{
+        font-size: 11px;
+    }
+
+}
+body{
+    font-family: 'Plain-Light', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 8rem 14%;
+
+    @include tablet{
+        padding: 8rem 4rem;
+    }
+    @include mobile{
+        padding: 8rem 1.5rem;
+    }
+
+}   

@@ -1,0 +1,27 @@
+.about{
+    padding: 0 28%;
+    padding-top: 8rem;
+
+    @include mobile{
+        padding: 0 1.5rem;
+        padding-top:8rem;
+    }
+
+    &__desc{
+        font-size:1.5rem;
+        line-height:2.25rem;
+        color: $grey;
+        h2{
+            color:$black;
+            line-height:3rem;
+            max-width: 400px;
+            
+            span{
+                color: $yellow;
+            }
+        }
+        p{
+            margin-top: 2rem;
+        }
+    }
+}
